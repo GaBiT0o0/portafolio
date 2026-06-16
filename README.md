@@ -5,7 +5,7 @@
 📍 Quito, Ecuador
 📧 [gabriel.a.t.h34@gmail.com](mailto:gabriel.a.t.h34@gmail.com)
 📱 0961708888
-🌐 LinkedIn: *(Agregar enlace)*
+🌐 LinkedIn: www.linkedin.com/in/gabriel-terán-86648936a
 💻 GitHub: https://github.com/GaBiT0o0
 
 ---
