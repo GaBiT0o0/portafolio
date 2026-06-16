@@ -1,10 +1,321 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Portafolio Gabriel Terán</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabriel Alejandro Terán Hidalgo | Portafolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:2.5rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.1rem;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+section{
+    padding:50px 0;
+}
+
+h2{
+    color:#0f172a;
+    margin-bottom:20px;
+    border-bottom:3px solid #2563eb;
+    display:inline-block;
+    padding-bottom:5px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom:20px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#2563eb;
+    color:white;
+    padding:10px 15px;
+    border-radius:20px;
+    font-size:0.9rem;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.project{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.project h3{
+    margin-bottom:10px;
+    color:#2563eb;
+}
+
+.btn{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    padding:12px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    margin-top:10px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+ul{
+    margin-left:20px;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:2rem;
+    }
+}
+</style>
+
 </head>
+
 <body>
+
+<header>
     <h1>Gabriel Alejandro Terán Hidalgo</h1>
     <p>Estudiante de Ingeniería en Sistemas de la Información</p>
+    <p>Desarrollo de Software | Redes Cisco | Ciberseguridad | IA</p>
+
+    <a href="GabrielAlejandro_CV.pdf" class="btn" target="_blank">
+        📄 Descargar CV
+    </a>
+</header>
+
+<div class="container">
+
+<section>
+    <h2>Sobre Mí</h2>
+
+    <div class="card">
+        <p>
+            Soy estudiante de Ingeniería en Sistemas de la Información en la
+            Universidad Internacional del Ecuador. Tengo formación técnica en
+            Mecatrónica y experiencia académica en programación, redes Cisco,
+            desarrollo de APIs REST, administración de redes y tecnologías
+            emergentes.
+        </p>
+
+        <br>
+
+        <p>
+            Me apasiona resolver problemas mediante la tecnología y continuar
+            desarrollando habilidades en desarrollo de software, infraestructura
+            de redes, automatización y ciberseguridad.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>Tecnologías</h2>
+
+    <div class="skills">
+
+        <div class="skill">Python</div>
+        <div class="skill">Go</div>
+        <div class="skill">Git</div>
+        <div class="skill">GitHub</div>
+        <div class="skill">Linux</div>
+        <div class="skill">Windows</div>
+        <div class="skill">Cisco</div>
+        <div class="skill">VLAN</div>
+        <div class="skill">OSPF</div>
+        <div class="skill">EIGRP</div>
+        <div class="skill">APIs REST</div>
+        <div class="skill">JSON</div>
+        <div class="skill">Packet Tracer</div>
+        <div class="skill">ChatGPT</div>
+        <div class="skill">IA Generativa</div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Proyectos Destacados</h2>
+
+    <div class="projects">
+
+        <div class="project">
+            <h3>API REST en Go</h3>
+
+            <p>
+                Desarrollo de una API REST para gestión de tareas utilizando
+                Go y Gorilla Mux.
+            </p>
+
+            <ul>
+                <li>CRUD completo</li>
+                <li>Manejo de JSON</li>
+                <li>Rutas HTTP</li>
+                <li>Arquitectura Backend</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>Proyecto de Redes Cisco</h3>
+
+            <p>
+                Diseño y simulación de infraestructura empresarial mediante
+                Cisco Packet Tracer.
+            </p>
+
+            <ul>
+                <li>VLANs</li>
+                <li>OSPF</li>
+                <li>EIGRP</li>
+                <li>Seguridad SSH</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>Aplicaciones en Python</h3>
+
+            <p>
+                Desarrollo de aplicaciones académicas y ejercicios prácticos.
+            </p>
+
+            <ul>
+                <li>Juego del Gato</li>
+                <li>Conversores</li>
+                <li>Automatización</li>
+                <li>Estructuras de Datos</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>Proyecto Final de Redes</h3>
+
+            <p>
+                Diseño de red multisede con protocolos de enrutamiento y
+                segmentación de red.
+            </p>
+
+            <ul>
+                <li>VLAN</li>
+                <li>WAN</li>
+                <li>Seguridad</li>
+                <li>Administración Cisco</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Certificaciones</h2>
+
+    <div class="card">
+        <ul>
+            <li>Fundamentos de Python 1 - Cisco Networking Academy</li>
+            <li>Introduction to Greenhouse Gas Accounting for IT</li>
+            <li>Tecnologías 4.0 - Conecta Empleo</li>
+            <li>Progrentis Elite - Nivel 1</li>
+            <li>Taller de Electricidad Básica</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Idiomas</h2>
+
+    <div class="card">
+        <p><strong>Español:</strong> Nativo</p>
+        <p><strong>Inglés:</strong> Intermedio (B1)</p>
+    </div>
+</section>
+
+<section>
+    <h2>Contacto</h2>
+
+    <div class="card contact">
+
+        <p>📧 gabriel.a.t.h34@gmail.com</p>
+
+        <p>📱 0961708888</p>
+
+        <br>
+
+        <a href="https://github.com/GaBiT0o0" class="btn" target="_blank">
+            GitHub
+        </a>
+
+        <a href="https://linkedin.com" class="btn" target="_blank">
+            LinkedIn
+        </a>
+
+    </div>
+</section>
+
+</div>
+
+<footer>
+    © 2026 Gabriel Alejandro Terán Hidalgo | Portafolio Profesional
+</footer>
+
 </body>
 </html>
+```
